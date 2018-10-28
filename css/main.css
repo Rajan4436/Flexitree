@@ -520,7 +520,7 @@ ul.sub-menu {
 
 #home-slider .main-slider {
   position: relative;
-  height: 450px;
+  height: 75vh;
 }
 
 #home-slider .slide-text{
@@ -537,19 +537,19 @@ ul.sub-menu {
 
 #home-slider .slider-house {
   position: absolute;
-  right: 0;
-  bottom: 0;
+  top: 125px;
+  left: 200px;
 }
 
 .animate-in .slider-house {
-  -webkit-animation: fadeInDown 700ms ease-in-out 200ms both;
-  animation: fadeInDown 700ms ease-in-out 200ms both;
+  -webkit-animation: bounceIn 500ms ease-in-out 900ms both;
+  animation: bounceIn 500ms ease-in-out 900ms both;
 }
 
 #home-slider .slider-circle1 {
   position: absolute;
-  right: 430px;
-  bottom: 210px;
+  right: 560px;
+  bottom: 120px;
 }
 
 .animate-in .slider-circle1 {
@@ -559,8 +559,8 @@ ul.sub-menu {
 
 #home-slider .slider-circle2 {
   position: absolute;
-  right: 420px;
-  bottom: 245px;
+  right: 545px;
+  bottom: 387px;
 }
 
 .animate-in .slider-circle2 {
@@ -570,8 +570,8 @@ ul.sub-menu {
 
 #home-slider .slider-cloud1 {
   position: absolute;
-  right: 290px;
-  bottom: 250px;
+  right: 400px;
+  bottom: 500px;
 }
 
 .animate-in .slider-cloud1 {
@@ -581,8 +581,8 @@ ul.sub-menu {
 
 #home-slider .slider-cloud2 {
   position: absolute;
-  right: 375px;
-  bottom: 330px;
+  right: 250px;
+  bottom: 390px;
 }
 
 .animate-in .slider-cloud2 {
@@ -592,8 +592,8 @@ ul.sub-menu {
 
 #home-slider .slider-cloud3 {
   position: absolute;
-  right: 75px;
-  bottom: 300px;
+  right: 150px;
+  bottom: 260px;
 }
 
 .animate-in .slider-cloud3 {
@@ -603,8 +603,8 @@ ul.sub-menu {
 
 #home-slider .slider-sun {
   position: absolute;
-  right: 190px;
-  bottom: 300px;
+  right: 236px;
+  bottom: 126px;
 }
 
 .animate-in .slider-sun {
@@ -614,13 +614,13 @@ ul.sub-menu {
 
 #home-slider .slider-cycle {
   position: absolute;
-  right: 500px;
-  bottom: 0;
+  right: 400px;
+  bottom: 28px;
 }
 
 .animate-in .slider-cycle {
-  -webkit-animation: slideInLeft 4000ms cubic-bezier(0.190,1.000,0.220,1.000) 200ms both;
-  animation: slideInLeft 4000ms cubic-bezier(0.190,1.000,0.220,1.000) 200ms both;
+   -webkit-animation: bounceIn 800ms ease-in-out 1900ms both;
+  animation: bounceIn 800ms ease-in-out 1900ms both;
 }
 
 #home-slider h1{
@@ -658,7 +658,7 @@ ul.sub-menu {
 #action, 
 #page-breadcrumb {
   /*background-image: url(../images/home/tour-bg.png);*/
-  background-color: #fbfafa;
+  /*background-color: #fbfafa;*/
   background-repeat: repeat-x;
   height: 155px;
   background-position: center;
@@ -686,6 +686,20 @@ ul.sub-menu {
   display: block;
 }
 
+.single-service:after{
+  content: "";
+  font-size: 30px;
+  line-height: 30px;
+  color: #000;
+  position: absolute;
+  top: 25px;
+  right: 10px;
+}
+
+.single-service h3{
+  font-weight: bold;
+}
+
 .single-service img {
   margin-bottom: 35px;
 }
@@ -702,7 +716,7 @@ ul.sub-menu {
 }
 
 .single-service p {
-  padding: 0 48px;
+  /*padding: 0 48px;*/
 }
 
 .action h1{
@@ -1825,6 +1839,10 @@ Blog Details
   margin-top: 40px;
   display: inline-block;
   padding: 0;
+}
+
+#services, #solution{
+  background-color: #fbfafa;
 }
 
 span.stMainServices,
