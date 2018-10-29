@@ -5,6 +5,11 @@
     animation: fadeInUp 400ms;
   }
 
+  #features .single-features:nth-of-type(2) .fadeInRight{
+    float: right;
+  }
+
+
   ul.sub-menu {
     position: absolute;
     top: 60px;
@@ -99,7 +104,7 @@
   }
 
   #home-slider .slider-house {
-    width: 350px;
+    /*width: 350px;*/
   }
 
   #home-slider .slider-circle1 {
@@ -217,6 +222,7 @@
   h2{
     font-size:20px;
   }
+
 
   .padding{
     padding: 30px 0;

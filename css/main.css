@@ -743,6 +743,15 @@ ul.sub-menu {
   background: #efefef;
 }
 
+#features .single-features{
+ text-align: justify;
+}
+
+#features .single-features img{
+  max-width: 350px;
+  text-align: right;
+}
+
 .single-features {
   overflow: hidden;
   padding-top: 30px;
