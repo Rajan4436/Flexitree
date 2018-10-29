@@ -167,7 +167,7 @@
 
 #header{
   margin-bottom: 0;
-  padding: 30px 0 60px 0;
+  padding: 30px 0;
 }
 
 #header .navbar-inverse .container{
@@ -252,7 +252,7 @@
 }
 
 #header .navbar-brand-logo img{
-  width:100%;
+  width:80px;
 }
 
 #header .navbar-brand h1{
@@ -310,6 +310,7 @@ ul.sub-menu {
   background: #fef7ee;
   color: #006633;
   position: relative;
+  width: 100%;
 }
 
 #header .navbar-nav li ul.sub-menu li .active i{
@@ -330,8 +331,9 @@ ul.sub-menu {
 
 #header .navbar-nav li ul.sub-menu li a:hover,
 #header .navbar-nav li ul.sub-menu li a:focus{
-  background: #fef7ee;
+  background: #89ffc4;
   color: #006633;
+  width: 100%;
 }
 
 .fa-angle-down{
@@ -516,6 +518,7 @@ ul.sub-menu {
 #home-slider {
   background: url(../images/home/slider-bg.png) 0 100% repeat-x;
   position: relative;
+  height: 100vh;
 }
 
 #home-slider .main-slider {
@@ -566,6 +569,11 @@ ul.sub-menu {
 .animate-in .slider-circle2 {
   -webkit-animation: bounceIn 500ms ease-in-out 1100ms both;
   animation: bounceIn 500ms ease-in-out 1100ms both;
+}
+
+.iot-pop{
+ -webkit-animation: bounceIn 500ms ease-in-out 1100ms both;
+  animation: bounceIn 500ms ease-in-out 100ms both;
 }
 
 #home-slider .slider-cloud1 {
@@ -768,6 +776,8 @@ ul.sub-menu {
 
 #clients{
   padding-bottom: 45px;
+  background-color: #fbfafa;
+  
 }
 
 .clients {

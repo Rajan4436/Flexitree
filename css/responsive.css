@@ -9,6 +9,14 @@
     float: right;
   }
 
+  .main-slider .iot-pop{
+    min-width: 600px;
+  }
+
+  #home-slider .iot-pop{
+    margin-top: -30px;
+  }
+
 
   ul.sub-menu {
     position: absolute;
@@ -20,11 +28,11 @@
     box-shadow: none;
     display: none;
     z-index: 999;
-    border: 1px solid #dab074;
+    border: 1px solid #006633;
   }
 
   #header .navbar-nav li ul.sub-menu li a {
-    padding-left: 20px;
+    padding-left: 10px;
   }
 
 
@@ -75,7 +83,7 @@
 @media only screen and (max-width : 992px) {
 
   h1{
-    font-size: 25px;
+    /*font-size: 25px;*/
   }
 
   #header .navbar-nav.navbar-right li {
@@ -86,12 +94,10 @@
     padding: 20px 10px;
   }
 
-  #home-slider {
-    margin-top: 30px;
-  }
+
 
   #home-slider .main-slider {
-    height: 250px;
+    /*height: 250px;*/
   }
 
   #home-slider .slide-text {
