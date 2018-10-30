@@ -231,9 +231,10 @@
   background: none;
 }
 
-#header .navbar {
+#home-slider .navbar {
   background: #fff;
   border: 0;
+  padding: 20px;
   margin-bottom: 0;
 }
 
@@ -241,18 +242,31 @@
   margin-top: 20px;
 }
 
+.navbar-default .navbar-toggle{
+  border-color: transparent;
+  font-size: 36px;
+  padding: 30px;
+}
+
+.navbar-toggle .icon-bar{
+  display: block;
+  width: 30px;
+  height: 3px;
+  border-radius: 1px;
+}
+
 #header .navbar-brand{
   padding: 0;
   margin-left: 0;
 }
 
-#header .navbar-brand-logo{
+.navbar .navbar-brand-logo{
   max-width: 200px;
   margin-top: -10px;
 }
 
-#header .navbar-brand-logo img{
-  width:80px;
+.navbar .navbar-brand-logo img{
+  width:180px;
 }
 
 #header .navbar-brand h1{
@@ -704,8 +718,26 @@ ul.sub-menu {
   right: 10px;
 }
 
+
+.navbar-default .navbar-collapse, .navbar-default{
+  margin-top: 20px;
+  background: #e7e7e7;
+}
+
+.navbar-default .navbar-collapse ul li, .navbar-default ul li{
+  float: none;
+}
+
+.navbar-default .navbar-collapse ul li a, 
+.navbar-default ul li a{
+  font-size: 14px;
+  font-weight: bold;
+  padding: 10px;
+}
+
 .single-service h3{
   font-weight: bold;
+  line-height: 24px;
 }
 
 .single-service img {
@@ -751,6 +783,10 @@ ul.sub-menu {
   background: #efefef;
 }
 
+#solutionp p{
+  text-align: justify;
+}
+
 #features .single-features{
  text-align: justify;
 }
@@ -777,7 +813,7 @@ ul.sub-menu {
 #clients{
   padding-bottom: 45px;
   background-color: #fbfafa;
-  
+
 }
 
 .clients {
@@ -821,7 +857,7 @@ ul.sub-menu {
 }
 
 .single-service img {
-  height: 85px;
+  height: 100px;
 }
 
 .tour-button {
@@ -1862,7 +1898,17 @@ Blog Details
 
 #services, #solution{
   background-color: #fbfafa;
+  padding-bottom: 50px;
 }
+
+.single-service{
+  text-align: left;
+}
+
+.single-service h3{
+  text-transform: uppercase;
+}
+
 
 span.stMainServices,
 span.stButton_gradient, 

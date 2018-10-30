@@ -9,6 +9,21 @@
     float: right;
   }
 
+  .navbar-header
+  {
+      float: none;
+  }
+
+  .navbar-toggle
+  {
+      display: block;
+  }
+
+  .navbar-collapse.collapse:not(.in)
+  {
+      display: none !important;
+  }
+
   .main-slider .iot-pop{
     min-width: 600px;
   }
