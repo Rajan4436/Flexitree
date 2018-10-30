@@ -246,7 +246,7 @@
 .navbar-default .navbar-toggle{
   border-color: transparent;
   font-size: 36px;
-  padding: 20px;
+  padding: 30px;
 }
 
 .navbar-toggle .icon-bar{
@@ -789,8 +789,12 @@ ul.sub-menu {
   background: #efefef;
 }
 
-#solutionp p{
+#solution p{
   text-align: justify;
+}
+
+#solution h3{
+  text-align: center;
 }
 
 #features .single-features{
