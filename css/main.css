@@ -20,7 +20,7 @@
     color: #77777a;
   }
 
-  html {
+  html, body {
     height: 100%;
   }
 
@@ -234,6 +234,7 @@
 #home-slider .navbar {
   background: #fff;
   border: 0;
+  margin-top: 0px;
   padding: 20px;
   margin-bottom: 0;
 }
@@ -245,7 +246,7 @@
 .navbar-default .navbar-toggle{
   border-color: transparent;
   font-size: 36px;
-  padding: 30px;
+  padding: 20px;
 }
 
 .navbar-toggle .icon-bar{
@@ -532,12 +533,12 @@ ul.sub-menu {
 #home-slider {
   background: url(../images/home/slider-bg.png) 0 100% repeat-x;
   position: relative;
-  height: 100vh;
+  height: 100%;
 }
 
 #home-slider .main-slider {
   position: relative;
-  height: 75vh;
+  /*height: 75vh;*/
 }
 
 #home-slider .slide-text{
@@ -586,6 +587,7 @@ ul.sub-menu {
 }
 
 .iot-pop{
+  margin: auto;
  -webkit-animation: bounceIn 500ms ease-in-out 1100ms both;
   animation: bounceIn 500ms ease-in-out 100ms both;
 }
@@ -709,13 +711,17 @@ ul.sub-menu {
 }
 
 .arrow:after{
-  content: "->";
+  content: "";
+  background: url(../images/arrow.png) center center no-repeat;
   font-size: 30px;
+  width: 50px;
+  background-size: contain;
+  height: 60px;
   line-height: 30px;
   color: #000;
   position: absolute;
   top: 25px;
-  right: 10px;
+  right: 0;
 }
 
 
