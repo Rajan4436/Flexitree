@@ -708,8 +708,8 @@ ul.sub-menu {
   display: block;
 }
 
-.single-service:after{
-  content: "";
+.arrow:after{
+  content: "->";
   font-size: 30px;
   line-height: 30px;
   color: #000;
