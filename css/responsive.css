@@ -5,6 +5,21 @@
     animation: fadeInUp 400ms;
   }
 
+  .arrow:after{
+    content: "";
+    background: url(../images/arrow.png) center center no-repeat;
+    font-size: 30px;
+    width: 50px;
+    background-size: contain;
+    height: 60px;
+    line-height: 30px;
+    color: #000;
+    position: absolute;
+    top: 25px;
+    right: 0;
+  }
+
+
   #features .single-features:nth-of-type(2) .fadeInRight{
     float: right;
   }
@@ -67,6 +82,12 @@
   }
 }
 
+@media (min-width: 450px) and (max-width: 768px) {
+  .iot{
+    margin-top: 0% !important;
+  }
+}
+
 /* md */
 @media only screen and (max-width : 1200px) {
 
@@ -93,6 +114,15 @@
   }
 
 }
+
+@media only screen and (min-width : 992px) {
+
+  #features .single-features img{
+    max-width: 350px;
+    text-align: right;
+  }
+}
+
 
 /* sm */
 @media only screen and (max-width : 992px) {
@@ -244,6 +274,25 @@
     font-size:20px;
   }
 
+  .iot{
+    margin-top: 20%;
+  }
+
+  #features .single-features{
+    text-align: center;
+  }
+  #features .single-features img{
+    max-width: 250px;
+    margin: auto;
+  }
+
+  .navbar .navbar-brand-logo img{
+    max-width: 120px;
+  }
+
+  .navbar-default .navbar-toggle{
+    padding: 15px;
+  }
 
   .padding{
     padding: 30px 0;
@@ -318,7 +367,7 @@
   }
 
   #home-slider {
-    margin: 50px 20px;
+    /*margin: 50px 20px;*/
   }
 
   #home-slider .main-slider {

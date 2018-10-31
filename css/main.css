@@ -710,19 +710,6 @@ ul.sub-menu {
   display: block;
 }
 
-.arrow:after{
-  content: "";
-  background: url(../images/arrow.png) center center no-repeat;
-  font-size: 30px;
-  width: 50px;
-  background-size: contain;
-  height: 60px;
-  line-height: 30px;
-  color: #000;
-  position: absolute;
-  top: 25px;
-  right: 0;
-}
 
 
 .navbar-default .navbar-collapse, .navbar-default{
@@ -801,10 +788,6 @@ ul.sub-menu {
  text-align: justify;
 }
 
-#features .single-features img{
-  max-width: 350px;
-  text-align: right;
-}
 
 .single-features {
   overflow: hidden;
@@ -1911,8 +1894,8 @@ Blog Details
   padding-bottom: 50px;
 }
 
-.single-service{
-  text-align: left;
+#services .block{
+  min-height: 400px;
 }
 
 .single-service h3{
